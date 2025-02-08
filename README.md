@@ -16,6 +16,7 @@ This project is a multi-page website with a clean and modern design, featuring r
 
 ## 📁 Project Structure
 
+```
 ├── src/
 │ ├── assets/
 │ │ └── css/
@@ -31,6 +32,7 @@ This project is a multi-page website with a clean and modern design, featuring r
 │ └── pages/
 │ └── index.html
 └── README.md
+```
 
 ## 🛠️ Getting Started
 
@@ -108,9 +110,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions, feel free to reach out:
 
-- GitHub: [@yourusername](your-github-profile)
-- Email: your.email@example.com
+- GitHub: [@mehmetpolat](https://github.com/mehmetpolat)
+- Email: m60polat@gmail.com
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Mehmet Polat](https://github.com/mehmetpolat)
