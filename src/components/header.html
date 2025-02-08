@@ -1,0 +1,35 @@
+<header class="bg-white shadow">
+  <nav class="container mx-auto px-4 py-6">
+    <div class="flex justify-between items-center">
+      <a href="/" class="text-xl font-bold text-gray-800">Logo</a>
+      <ul class="flex space-x-6 items-center">
+        <li><a href="/" class="text-gray-600 hover:text-gray-900">Home</a></li>
+        <li><a href="/about.html" class="text-gray-600 hover:text-gray-900">About</a></li>
+        <li><a href="/contact.html" class="text-gray-600 hover:text-gray-900">Contact</a></li>
+        <li>
+          <div class="relative" data-dropdown>
+            <button 
+              type="button" 
+              class="flex items-center text-gray-600 hover:text-gray-900"
+              data-dropdown-toggle
+              aria-expanded="false"
+            >
+              Menu
+              <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div 
+              class="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 hidden"
+              data-dropdown-menu
+            >
+              <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Profile</a>
+              <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Settings</a>
+              <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Logout</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header> 
