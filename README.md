@@ -37,7 +37,7 @@ This project is a multi-page website with a clean and modern design, featuring r
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/your-project.git
+git clone https://github.com/mehmetpolat/html-css-tailwind-gulp-boilerplate
 ```
 
 2. Open the project in your preferred code editor
